@@ -1,11 +1,11 @@
 {
   "Post": {
-    "id": "1",
-      "title": "Post 1",
-      "id": 2,
-      "title": "Post 2"
-  }
-  ,
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
   "Comment": {
     "body": "string",
     "post": "Post"
